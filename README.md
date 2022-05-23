@@ -7,3 +7,5 @@ Hardware is just a ESP32 with an IR receiver hooked up to pin 16 (with a pullup 
 
 ## Transfer
 Data is transferred via an MQTT broker. The node script under `server_influxdb` takes the received data, converts it into usable form and writes it to an InfluxDB database.
+
+Original repo <a href="https://github.com/patagonaa/esp32-ir-powermeter">here</a>
